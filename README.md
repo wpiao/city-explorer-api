@@ -21,6 +21,6 @@ This app is an express server that responses to clients' requests.
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 ## References   
-[Express]()
-[NPM Cors]()
+[Express](https://expressjs.com/en/starter/hello-world.html)
+[NPM Cors](https://www.npmjs.com/package/cors)
 [NPM dotenv]()
