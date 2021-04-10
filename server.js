@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/weather', (req, res) => {
-  res.send('Hello world');
+  const data = weatherData.data.map(eachDay => new Forecast(eachDay.datetime, eachDay.weather.description));
+  res.send(data);
 });
 
 app.listen(PORT, () => {
