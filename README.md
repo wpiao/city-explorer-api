@@ -30,3 +30,7 @@ It took me 1 hour to complete this lab including add features in the front-end.
 [Express](https://expressjs.com/en/starter/hello-world.html)    
 [NPM Cors](https://www.npmjs.com/package/cors)    
 [NPM dotenv](https://www.npmjs.com/package/dotenv)    
+
+## Live Site URL    
+* [City Explorer Front-end](https://affectionate-snyder-4a925f.netlify.app/)
+* [City Explorer Back-end](https://city-explorer-api-wp.herokuapp.com/)
