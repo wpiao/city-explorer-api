@@ -1,26 +1,32 @@
-# City Explorer API
+# City Explorer API - 4/10/2021   
 
-**Author**: Wenhao Piao
-**Version**: 1.0.0
+**Author**: Wenhao Piao   
+**Keyword**: Express    
+**Version**: 1.0.0    
 
 ## Overview
 This app is an express server that responses to clients' requests.
 
-## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+## Getting Started    
+1. Clone the repo.    
+2. `npm i` to install all required dependencies.      
+3. `npm start` to start the server.   
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+* express   
+* cors    
+* dotenv
+* Heroku
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+It took me 1 hour to complete this lab including add features in the front-end.
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+* Collaborator - Lorenzo Ortega 
+* Web request-response cycle diagram   
+![request-response-cycle](./request-response-cycle1.png)   
 
 ## References   
-[Express](https://expressjs.com/en/starter/hello-world.html)
-[NPM Cors](https://www.npmjs.com/package/cors)
-[NPM dotenv]()
+[Express](https://expressjs.com/en/starter/hello-world.html)    
+[NPM Cors](https://www.npmjs.com/package/cors)    
+[NPM dotenv](https://www.npmjs.com/package/dotenv)    
