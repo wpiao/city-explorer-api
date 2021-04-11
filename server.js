@@ -13,6 +13,10 @@ function Forecast(date, description) {
 }
 
 app.use(cors());
+app.use((err, req, res, next) => {
+  console.error(err.stack)
+  res.status(500).send('Something broke!')
+});
 
 app.get('/', (req, res) => {
   res.send('Make request on /weather to get weather data!');
